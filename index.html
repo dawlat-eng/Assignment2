@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data</title>
+</head>
+<body style="background-color: bisque;">
+    <span style="background-color:#758694;">Personal data</span>
+    <br/>
+    <br/>
+    <form>
+        <fieldset style="background-color: #9CDBA6;">
+            <legend style="background-color: #50B498;">Your Name</legend>
+            <table>
+                <tr>
+                    <td> <label for="first-name">First Name :</label></td>
+                    <td> <input id="first-name" name="first name" type="text" placeholder="ex:Dawlat"></td>
+                </tr>
+                <tr>
+                    <td> <label for="second-name">Second Name :</label></td>
+                    <td> <input id="second-name"name= "second name" type="text" placeholder="ex:Hussein"></td>
+                </tr>
+            </table>  
+        </fieldset>
+        <br/>
+        <br/>
+        <table>
+            <tr>
+                <td> <label for="your-phone">Your Phone :</label></td>
+                <td> <input id="your-phone" name="your phone" type="tel"></td>
+            </tr>
+            <tr>
+                <td> <label for="email">Email :</label></td>
+                <td><input id="email" name="email" type="email"></td>
+            </tr>
+            <tr>
+                <td> <label for="password">Password :</label></td>
+                <td> <input id="password" name="password" type="password" required></td>
+            </tr>
+            <tr>
+                <td>  <label for="repass">Re-password :</label></td>
+                <td><input id="repass" name="repassword" type="password" required></td>
+            </tr> 
+        </table>
+        <br/>
+        <br/>
+        <input id="Gender1" value="1"  name="Gender" type="radio">
+        <label for="Gender1">Female</label>
+        <br/>
+        <br/>
+        <input id="Gender2" value="2" name="Gender" type="radio">
+        <label for="Gender2">Male</label>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <input id="status1" name="status" type="checkbox" value="name">
+        <label for="status1">Student</label>
+        <br/>
+        <br/>
+        <input id="status2" name="status" type="checkbox" value="staus">
+        <label for="status2">Graduate</label>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <!-- <label for="collage"></label> -->
+        <select name="collage" id="collage">
+            <option disabled selected hidden>Select your collage</option>
+            <optgroup label="Group1">
+                <option value="Auc">Auc</option>
+                <option value="Asu">Asu</option>
+            </optgroup>
+            <optgroup label="Group2">
+                <option value="Cu">Cu</option>
+                <option value="Guc">Guc</option>
+            </optgroup>
+        </select>
+        <br/>
+        <br/>
+        <button><img src="./img/images.png" alt="submit button" width="80px"></button>
+    </form>
+</body>
+</html>
